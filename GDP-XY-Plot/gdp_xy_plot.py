@@ -161,15 +161,5 @@ def test_render_xy_plot():
 #||                                  MAIN EXECUTION                              ||
 #||                                                                              ||
 #||==============================================================================||
-
-gdpinfo = {
-        "gdpfile": "isp_gdp.csv",
-        "separator": ",",
-        "quote": '"',
-        "min_year": 1960,
-        "max_year": 2015,
-        "country_name": "Country Name",
-        "country_code": "Country Code"
-    }
     
 test_render_xy_plot()
