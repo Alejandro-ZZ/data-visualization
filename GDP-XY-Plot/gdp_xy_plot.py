@@ -20,7 +20,7 @@ def read_csv_as_nested_dict(filename, keyfield, separator, quote):
       field values for that row.
     """
     info = {}
-    with open(filename, newline='') as csvfile:
+    with open(filename, newline='', encoding='utf-8-sig') as csvfile:
         
         reader = csv.DictReader(csvfile, delimiter=separator, quotechar=quote)
         
